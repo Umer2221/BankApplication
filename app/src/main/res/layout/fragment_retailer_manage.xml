@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#828485"
+    android:padding="10dp"
+    tools:context=".Fragments.RetailerManageFragment">
+   <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+       android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:queryHint="Search Here"
+            android:textColor="#0d0d0d"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false">
+
+        </SearchView>
+        <ListView
+            android:id="@+id/mylist"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:textColor="#0d0d0d"
+            android:cacheColorHint="@color/black"
+            android:layout_height="1000dp">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+</FrameLayout>

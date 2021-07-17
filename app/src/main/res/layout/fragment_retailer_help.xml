@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4F3FF"
+    tools:context=".Fragments.RetailerHelpFragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+
+           android:id="@+id/desc"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="140dp"
+           android:text="Go on the Official Android Website and get your problem solved. Take easy steps and follow them. Tap on the Button Below."
+           android:textAlignment="center"
+           android:textColor="@color/black"
+           android:textSize="20dp"
+
+           android:textStyle="normal"
+
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <Button
+           android:id="@+id/buttonHelp"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="264dp"
+           android:background="@color/black"
+           android:gravity="center"
+           android:textSize="18dp"
+           android:textColor="@color/white"
+           android:text="Help"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.576"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <TextView
+
+           android:id="@+id/textView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Take Help"
+           android:textColor="@color/black"
+           android:textAlignment="center"
+           android:textSize="38dp"
+           android:textStyle="bold"
+
+           android:layout_marginTop="50dp"
+
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.498"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
